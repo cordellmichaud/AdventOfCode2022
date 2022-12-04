@@ -1,7 +1,8 @@
 import pathlib
+import sys
 
 def main():
-    input_path: pathlib.Path = pathlib.Path('input.txt')
+    input_path: pathlib.Path = pathlib.Path(sys.argv[0]).parent / 'input.txt'
 
     all_calories: list[int] = []
     current_calories: int = 0

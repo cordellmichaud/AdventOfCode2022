@@ -1,5 +1,7 @@
 import enum
 import pathlib
+import sys
+
 
 class Hand(enum.IntEnum):
     ROCK: int = 1
@@ -31,7 +33,7 @@ def calculate_score(strategy: str) -> int:
     return score
 
 def main():
-    input_path: pathlib.Path = pathlib.Path('input.txt')
+    input_path: pathlib.Path = pathlib.Path(sys.argv[0]).parent / 'input.txt'
     total_score: int = 0
     with input_path.open("r") as input_file:
         total_score = sum(
