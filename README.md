@@ -11,3 +11,7 @@ From the Advent of Code site:
 ### Calendar Progress:
 
 ![An ASCII art calendar image](calendar_image.png)
+
+### Disclaimer
+
+All puzzles and images property of [Eric Wastl](https://twitter.com/ericwastl). 
