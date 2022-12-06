@@ -14,4 +14,4 @@ From the Advent of Code site:
 
 ### Disclaimer
 
-All puzzles and images property of [Eric Wastl](https://twitter.com/ericwastl). 
+All puzzles and images property of Advent of Code.
