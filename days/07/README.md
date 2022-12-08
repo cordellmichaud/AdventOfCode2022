@@ -43,7 +43,7 @@ The filesystem consists of a tree of files (plain data) and directories (which c
 
 Within the terminal output, lines that begin with `$` are **commands you executed**, very much like some modern computers:
 
-- cd means **change directory**. This changes which directory is the current directory, but the specific result depends on the argument:
+- `cd` means **change directory**. This changes which directory is the current directory, but the specific result depends on the argument:
   - `cd x` moves **in** one level: it looks in the current directory for the directory named x and makes it the current directory.
   - `cd ..` moves **out** one level: it finds the directory that contains the current directory, then makes that directory the current directory.
   - `cd /` switches the current directory to the outermost directory, `/.`
