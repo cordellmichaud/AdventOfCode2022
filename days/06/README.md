@@ -16,7 +16,9 @@ The device will send your subroutine a datastream buffer (your puzzle input); yo
 
 For example, suppose you receive the following datastream buffer:
 
-`mjqjpqmgbljsphdztnvjfqwrcgsmlb`
+```
+mjqjpqmgbljsphdztnvjfqwrcgsmlb
+```
 
 After the first three characters (`mjq`) have been received, there haven't been enough characters received yet to find the marker. The first time a marker could occur is after the fourth character is received, making the most recent four characters `mjqj`. Because `j` is repeated, this isn't a marker.
 
