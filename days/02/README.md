@@ -1,4 +1,4 @@
-# --- Day 2: Rock Paper Scissors ---
+# --- [Day 2: Rock Paper Scissors](https://adventofcode.com/2022/day/2) ---
 
 The Elves begin to set up camp on the beach. To decide whose tent gets to be closest to the snack storage, a giant [Rock Paper Scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors) tournament is already in progress.
 
