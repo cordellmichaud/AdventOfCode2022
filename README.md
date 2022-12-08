@@ -2,16 +2,27 @@
 
 Python solutions for [Advent of Code 2022](https://adventofcode.com/2022/about).
 
-### What is Advent of Code?
+## What is Advent of Code?
 
 From the Advent of Code site:
 
 > Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as interview prep, company training, university coursework, practice problems, a speed contest, or to challenge each other.
 
-### Calendar Progress:
+## Calendar Progress
 
 ![An ASCII art calendar image](calendar_image.png)
 
-### Disclaimer
+## Solutions
+|  | Part 1 | Part 2 |
+| :-- | :-------------: | :-------------: |
+| [Day 1: Calorie Counting](/days/01) | [Solution](/days/01/part1.py) | [Solution](/days/01/part2.py) |
+| [Day 2: Rock Paper Scissors](/days/02) | [Solution](/days/02/part1.py) | [Solution](/days/02/part2.py) |
+| [Day 3: Rucksack Reorganization](/days/03) | [Solution](/days/03/part1.py) | [Solution](/days/03/part2.py) |
+| [Day 4: Camp Cleanup](/days/04) | [Solution](/days/04/part1.py) | [Solution](/days/04/part2.py) |
+| [Day 5: Supply Stacks](/days/05) | [Solution](/days/05/part1.py) | [Solution](/days/05/part2.py) |
+| [Day 6: Tuning Trouble](/days/06) | [Solution](/days/06/part1.py) | [Solution](/days/06/part2.py) |
+| [Day 7: No Space Left On Device](/days/07) | [Solution](/days/07/part1.py) | [Solution](/days/07/part2.py) |
+
+## Disclaimer
 
 All puzzles and calendar design property of Advent of Code.
