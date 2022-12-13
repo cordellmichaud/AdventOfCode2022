@@ -10,7 +10,7 @@ From the Advent of Code site:
 
 ## Calendar Progress
 
-![An ASCII art calendar image](calendar_image.png)
+![An ASCII art calendar image displaying day completion](calendar_image.png)
 
 ## Solutions
 |  | Part 1 | Part 2 |
@@ -22,6 +22,8 @@ From the Advent of Code site:
 | [Day 5: Supply Stacks](/days/05) | [Solution](/days/05/part1.py) | [Solution](/days/05/part2.py) |
 | [Day 6: Tuning Trouble](/days/06) | [Solution](/days/06/part1.py) | [Solution](/days/06/part2.py) |
 | [Day 7: No Space Left On Device](/days/07) | [Solution](/days/07/part1.py) | [Solution](/days/07/part2.py) |
+| [Day 8: Treetop Tree House](/days/08) | [Solution](/days/08/part1.py) | [Solution](/days/08/part2.py) |
+| [Day 9: Rope Bridge](/days/09) | [Solution](/days/09/part1.py) | [Solution](/days/09/part2.py) |
 
 ## Disclaimer
 
