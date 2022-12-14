@@ -24,6 +24,7 @@ From the Advent of Code site:
 | [Day 7: No Space Left On Device](/days/07) | [Solution](/days/07/part1.py) | [Solution](/days/07/part2.py) |
 | [Day 8: Treetop Tree House](/days/08) | [Solution](/days/08/part1.py) | [Solution](/days/08/part2.py) |
 | [Day 9: Rope Bridge](/days/09) | [Solution](/days/09/part1.py) | [Solution](/days/09/part2.py) |
+| [Day 10: Cathode-Ray Tube](/days/10) | [Solution](/days/10/part1.py) | [Solution](/days/10/part2.py) |
 
 ## Disclaimer
 
