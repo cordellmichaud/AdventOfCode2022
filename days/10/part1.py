@@ -43,8 +43,6 @@ def main():
         if cycle not in x_by_cycles_of_interest:
             x_by_cycles_of_interest[cycle] = x_by_cycles_of_interest[cycle - 40]
     
-    print(x_by_cycles_of_interest)
-    
     summed_signal_strengths = sum(
         cycle * x for cycle, x in x_by_cycles_of_interest.items())
     
