@@ -317,4 +317,4 @@ After 10000 rounds, the two most active monkeys inspected items 52166 and 52013 
 
 Worry levels are no longer divided by three after each item is inspected; you'll need to find another way to keep your worry levels manageable. Starting again from the initial state in your puzzle input, **what is the level of monkey business after 10000 rounds?**
 
-Answer: **TODO**
+Answer: **23641658401**
