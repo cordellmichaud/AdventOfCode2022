@@ -33,48 +33,24 @@ class Monkey:
         }
         
     def take_turn(self, monkeys: list[Self]):
-        logger = logging.getLogger()
         while self.items:
             self.total_items_inspected += 1
             current_item: int = self.items.popleft()
             
-            logger.debug('  Monkey inspects an item with a worry level of '
-                         f'{current_item}.')
-            op_verb = ('is multiplied by' 
-                       if self.op_func == operator.mul 
-                       else 'increases by')
-            
             match (self.op_a, self.op_b):
                 case ('old', 'old'):
                     current_item = self.op_func(current_item, current_item)
-                    logger.debug(
-                        f'    Worry level {op_verb} itself to {current_item}.')
                 case ('old', num) | (num, 'old'):
                     current_item = self.op_func(current_item, num)
-                    logger.debug(
-                        f'    Worry level {op_verb} {num} to {current_item}.')
                 case _:
                     current_item = self.op_func(self.op_a, self.op_b)
-                    if self.op_func == operator.mul:
-                        logger.debug(
-                            f'    Worry level is set to {self.op_a} multiplied '
-                            f'by {self.op_b}.')
-                    else:
-                        logger.debug(
-                            f'    Worry level is set to the sum of {self.op_a} '
-                            f'and {self.op_b}.')
+            
             current_item //= 3
-            logger.debug(
-                '    Monkey gets bored with item. Worry level is divided by 3 '
-                f'to {current_item}.')
+            
             test_result = current_item % self.test_divisor == 0
-            logger.debug(
-                f'    Current worry level is{" " if test_result else " not "} '
-                f'divisible by {self.test_divisor}.')
+            
             target_monkey_index: int = self.test_targets[test_result]
-            logger.debug(
-                f'    Item with worry level {current_item} is thrown to monkey '
-                f'{target_monkey_index}.')
+            
             monkeys[target_monkey_index].items.append(current_item)
 
 def parse_items(items_line: str) -> deque[str]:
@@ -154,32 +130,14 @@ def parse_monkey_file(file_path: str | Path) -> list[Monkey]:
     return monkeys
 
 def main():
-    logging.basicConfig(
-        filename=Path(sys.argv[0]).parent / 'monkeylog.log', filemode='w', 
-        level=logging.DEBUG)
-    logger = logging.getLogger()
-    
     input_path = Path(sys.argv[0]).parent / 'input.txt'
     
     monkeys: list[Monkey] = parse_monkey_file(input_path)
     
-    logger.debug('--Initial Monkey States--')
-    for monkey in monkeys:
-        logger.debug(f'Monkey {monkey.monkey_id}:')
-        logger.debug(f'  Starting items: {list(monkey.items)}')
-    
     total_rounds = 20
-    for round in range(1, total_rounds + 1):
-        logger.debug('')
-        logger.debug(f'--Round {round}--')
-        
+    for _ in range(total_rounds):
         for monkey in monkeys:
-            logger.debug(f'Monkey {monkey.monkey_id}:')
             monkeys[monkey.monkey_id].take_turn(monkeys)
-        
-        logger.debug('Post-round worry levels:')
-        for monkey in monkeys:
-            logger.debug(f'  Monkey {monkey.monkey_id}: {list(monkey.items)}')
     
     for monkey in monkeys:
         print(f'Monkey {monkey.monkey_id} inspected items '
