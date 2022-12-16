@@ -26,9 +26,10 @@ From the Advent of Code site:
 | [Day 9: Rope Bridge](/days/09) | [Solution](/days/09/part1.py) | [Solution](/days/09/part2.py) |
 | [Day 10: Cathode-Ray Tube](/days/10) | [Solution](/days/10/part1.py) | [Solution](/days/10/part2.py) |
 | [Day 11: Monkey in the Middle](/days/11) | [Solution](/days/11/part1.py) | [Solution](/days/11/part2.py) |
-| [Day 12: Hill Climbing Algorithm](/days/11) | TODO | TODO |
-| [Day 13: Distress Signal](/days/11) | TODO | TODO |
-| [Day 14: Regolith Reservoir](/days/11) | TODO | TODO |
+| [Day 12: Hill Climbing Algorithm](/days/12) | TODO | TODO |
+| [Day 13: Distress Signal](/days/13) | TODO | TODO |
+| [Day 14: Regolith Reservoir](/days/14) | TODO | TODO |
+| [Day 15: Beacon-Exclusion Zone](/days/15) | TODO | TODO |
 
 ## Disclaimer
 
