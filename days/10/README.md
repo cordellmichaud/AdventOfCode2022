@@ -199,7 +199,7 @@ Find the signal strength during the 20th, 60th, 100th, 140th, 180th, and 220th c
 
 Answer: **15260**
 
---- Part Two ---
+# --- Part Two ---
 
 It seems like the `X` register controls the horizontal position of a sprite. Specifically, the [sprite](https://en.wikipedia.org/wiki/Sprite_(computer_graphics)) is 3 pixels wide, and the `X` register sets the horizontal position of the **middle** of that sprite. (In this system, there is no such thing as "vertical position": if the sprite's horizontal position puts its pixels where the CRT is currently drawing, then those pixels will be drawn.)
 

@@ -34,7 +34,7 @@ Consider your map; **how many trees are visible from outside the grid?**
 
 Answer: **1700**
 
---- Part Two ---
+# --- Part Two ---
 
 Content with the amount of tree cover available, the Elves just need to know the best spot to build their tree house: they would like to be able to see a lot of **trees**.
 

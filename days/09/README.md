@@ -260,7 +260,7 @@ Simulate your complete hypothetical series of motions. **How many positions does
 
 Answer: **6236**
 
---- Part Two ---
+# --- Part Two ---
 
 A rope snaps! Suddenly, the river is getting a lot closer than you remember. The bridge is still there, but some of the ropes that broke are now whipping toward you as you fall through the air!
 
