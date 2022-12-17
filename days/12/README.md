@@ -1,4 +1,4 @@
-# --- Day 12: Hill Climbing Algorithm ---
+# --- [Day 12: Hill Climbing Algorithm](https://adventofcode.com/2022/day/12) ---
 
 You try contacting the Elves using your handheld device, but the river you're following must be too low to get a decent signal.
 

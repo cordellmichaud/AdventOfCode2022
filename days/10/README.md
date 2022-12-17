@@ -1,4 +1,4 @@
-# --- Day 10: Cathode-Ray Tube ---
+# --- [Day 10: Cathode-Ray Tube](https://adventofcode.com/2022/day/10) ---
 
 You avoid the ropes, plunge into the river, and swim to shore.
 
