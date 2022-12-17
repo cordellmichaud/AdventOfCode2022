@@ -31,6 +31,7 @@ From the Advent of Code site:
 | [Day 14: Regolith Reservoir](/days/14) | TODO | TODO |
 | [Day 15: Beacon-Exclusion Zone](/days/15) | TODO | TODO |
 | [Day 16: Proboscidea Volcanium](/days/16) | TODO | TODO |
+| [Day 17: Pyroclastic Flow](/days/17) | TODO | TODO |
 
 ## Disclaimer
 
