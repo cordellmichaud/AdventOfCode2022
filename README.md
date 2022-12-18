@@ -27,7 +27,7 @@ From the Advent of Code site:
 | [Day 10: Cathode-Ray Tube](/days/10) | [Solution](/days/10/part1.py) | [Solution](/days/10/part2.py) |
 | [Day 11: Monkey in the Middle](/days/11) | [Solution](/days/11/part1.py) | [Solution](/days/11/part2.py) |
 | [Day 12: Hill Climbing Algorithm](/days/12) | [Solution](/days/12/part1.py) | [Solution](/days/12/part2.py) |
-| [Day 13: Distress Signal](/days/13) | TODO | TODO |
+| [Day 13: Distress Signal](/days/13) | [Solution](/days/13/part1.py) | [Solution](/days/13/part2.py) |
 | [Day 14: Regolith Reservoir](/days/14) | TODO | TODO |
 | [Day 15: Beacon-Exclusion Zone](/days/15) | TODO | TODO |
 | [Day 16: Proboscidea Volcanium](/days/16) | TODO | TODO |
