@@ -32,6 +32,7 @@ From the Advent of Code site:
 | [Day 15: Beacon-Exclusion Zone](/days/15) | TODO | TODO |
 | [Day 16: Proboscidea Volcanium](/days/16) | TODO | TODO |
 | [Day 17: Pyroclastic Flow](/days/17) | TODO | TODO |
+| [Day 18: Boiling Boulders](/days/18) | TODO | TODO |
 
 ## Disclaimer
 
