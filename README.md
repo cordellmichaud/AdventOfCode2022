@@ -34,6 +34,7 @@ From the Advent of Code site:
 | [Day 17: Pyroclastic Flow](/days/17) | TODO | TODO |
 | [Day 18: Boiling Boulders](/days/18) | TODO | TODO |
 | [Day 19: Not Enough Minerals](/days/19) | TODO | TODO |
+| [Day 20: Grove Positioning System](/days/20) | TODO | TODO |
 
 ## Disclaimer
 
