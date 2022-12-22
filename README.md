@@ -29,7 +29,7 @@ From the Advent of Code site:
 | [Day 12: Hill Climbing Algorithm](/days/12) | [Solution](/days/12/part1.py) | [Solution](/days/12/part2.py) |
 | [Day 13: Distress Signal](/days/13) | [Solution](/days/13/part1.py) | [Solution](/days/13/part2.py) |
 | [Day 14: Regolith Reservoir](/days/14) | [Solution](/days/14/part1.py) | [WIP](/days/14/part2.py) |
-| [Day 15: Beacon-Exclusion Zone](/days/15) | [Solution](/days/15/part1.py) | [WIP](/days/15/part2.py) |
+| [Day 15: Beacon-Exclusion Zone](/days/15) | [Solution](/days/15/part1.py) | [Solution](/days/15/part2.py) |
 | [Day 16: Proboscidea Volcanium](/days/16) | TODO | TODO |
 | [Day 17: Pyroclastic Flow](/days/17) | TODO | TODO |
 | [Day 18: Boiling Boulders](/days/18) | TODO | TODO |

@@ -1,9 +1,7 @@
-from collections import Counter
 from dataclasses import dataclass, field
-from functools import reduce
 from pathlib import Path
 import sys
-from typing import Iterable, Optional, Self
+from typing import Iterable
 
 
 def manhattan_dist(point1: tuple[int, int], point2: tuple[int, int]) -> int:
@@ -107,16 +105,15 @@ def find_possible_position(sensor_regions: list[SensorRegion],
         sensor_region for sensor_region in sensor_regions
         if sensor_region.contained_by(bbox)]
     
-    possible_point_counter = Counter()
-    
     for sensor_region in relevant_sensor_regions:
-        for possible_point in sensor_region.iter_border():
-            if bbox[0] <= possible_point[0] <= bbox[2] \
-               and bbox[1] <= possible_point[1] <= bbox[3]:
-                possible_point_counter.update([possible_point])
+        for point in sensor_region.iter_border():
+            if bbox[0] <= point[0] <= bbox[2] \
+               and bbox[1] <= point[1] <= bbox[3]:
+                if all(point not in sensor_region 
+                       for sensor_region in relevant_sensor_regions):
+                    return point
    
-    print(possible_point_counter)
-    return possible_point_counter.most_common(1)[0][0]
+    return None
 
 def main():
     input_path = Path(sys.argv[0]).parent / 'input.txt'

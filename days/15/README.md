@@ -119,4 +119,4 @@ In the example above, the search space is smaller: instead, the `x` and `y` coor
 
 Find the only possible position for the distress beacon. **What is its tuning frequency?**
 
-Answer: **TODO**
+Answer: **13543690671045**

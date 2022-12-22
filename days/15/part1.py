@@ -1,8 +1,6 @@
 from dataclasses import dataclass, field
-from functools import reduce
 from pathlib import Path
 import sys
-from typing import Iterable, Optional, Self
 
 
 def manhattan_dist(point1: tuple[int, int], point2: tuple[int, int]) -> int:
