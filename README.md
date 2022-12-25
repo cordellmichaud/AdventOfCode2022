@@ -38,6 +38,7 @@ From the Advent of Code site:
 | [Day 21: Monkey Math](/days/21) | TODO | TODO |
 | [Day 22: Monkey Map](/days/22) | TODO | TODO |
 | [Day 23: Unstable Diffusion](/days/23) | TODO | TODO |
+| [Day 24: Unstable Diffusion](/days/24) | TODO | TODO |
 
 ## Disclaimer
 
